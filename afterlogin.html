@@ -39,30 +39,29 @@
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: 'unsafe-inline' https://ssl.gstatic.com; style-src 'self' 'unsafe-inline'; media-src *" /> -->
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <title>Hello World</title>
-    <script language="javascript">
+    <title>Dashboard</title>
+    <!--<script language="javascript">
         function check(form)/*function to check userid & password*/
         {
             /*the following code checkes whether the entered userid and password are matching*/
             if (form.tb1.value == "user" && form.tb2.value == "pwd") {
-               // alert('hi');
-                window.open('afterlogin.html')/*opens the target page while Id & password matches*/
+                // alert('hi');
+                window.open('target.html')/*opens the target page while Id & password matches*/
             }
             else {
                 alert("Error Password or Username")/*displays error message*/
-               
+
             }
         }
-</script>
+</script>-->
 </head>
 
 <body>
     <div class="app">
     <form id="form">
-        <h1>Login Page</h1>
-        <div id="deviceready" class="blink">
-            <!--<p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>-->
+        <h1>Hello Vaibhav</h1>
+        <!--<div id="deviceready" class="blink">
+            
             <table><tr>
             <td>
             <b>UserId</b>
@@ -74,13 +73,13 @@
             <td>
                 <strong>Password</strong></td>
             <td>
-            <input type="password" id="tb2"  /></td>
+            <input type="text" id="tb2" /></td>
             </tr><tr>
             <td align="center" colspan="2">
                 <input type="button" name="Submit" value="Submit" onclick="check(this.form);" /></td>
             </tr></table>
             
-        </div>
+        </div>-->
         </form>
     </div>
     <script type="text/javascript" src="cordova.js"></script>
