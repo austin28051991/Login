@@ -40,23 +40,17 @@
 
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>Dashboard</title>
-    <!--<script language="javascript">
-        function check(form)/*function to check userid & password*/
+    <script language="javascript">
+        function check()/*function to check userid & password*/
         {
             /*the following code checkes whether the entered userid and password are matching*/
-            if (form.tb1.value == "user" && form.tb2.value == "pwd") {
-                // alert('hi');
-                window.open('target.html')/*opens the target page while Id & password matches*/
-            }
-            else {
-                alert("Error Password or Username")/*displays error message*/
-
-            }
+            alert('hi');
         }
-</script>-->
+</script>
+
 </head>
 
-<body>
+<body onload="check();">
     <div class="app">
     <form id="form">
         <h1>Hello Vaibhav</h1>
